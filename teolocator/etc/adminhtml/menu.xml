@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+      <add id="storelocator_teolocator::greetings" title="Teo Modules" translate="title" module="storelocator_teolocator" parent="Magento_Backend::content" sortOrder="50" dependsOnModule="storelocator_teolocator" resource="Magento_Backend::content"/>
+      <add id="storelocator_teolocator::greetings_teolocatorForm" title="Teo Locator" translate="title" module="storelocator_teolocator" parent="storelocator_teolocator::greetings" sortOrder="10" dependsOnModule="storelocator_teolocator" action="teolocatoradmin/teolocatoradminpage" resource="Magento_Backend::content"/>
+    </menu>
+</config>
